@@ -5,10 +5,10 @@ questionButtons.forEach(button => {
     const answer = button.nextElementSibling;
     if (answer.style.display === 'block') {
       answer.style.display = 'none';
-      button.querySelector('img').src = './assets/images/icon-plus.svg';
+      button.querySelector('img').src = '/assets/images/icon-plus.svg';
     } else {
       answer.style.display = 'block';
-      button.querySelector('img').src = './assets/images/icon-minus.svg';
+      button.querySelector('img').src = '/assets/images/icon-minus.svg';
     }
   });
 });
